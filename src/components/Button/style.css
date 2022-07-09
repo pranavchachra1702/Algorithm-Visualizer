@@ -1,0 +1,75 @@
+.Button {
+  --button-height: 36px;
+  --button-horizontal-padding: 8px;
+  --button-contained-horizontal-padding: 16px;
+  --button-height-dense: 32px;
+  --button-outlined-border-width: 1px;
+
+  /* Typography */
+  font-size: 0.875rem;
+  line-height: 2.25rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+
+  background-color: black;
+
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  min-width: 48px;
+  border: none;
+  outline: none;
+
+  line-height: inherit;
+  user-select: none;
+  appearance: none;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.Button:active {
+  outline: none;
+}
+
+.Button:hover {
+  cursor: pointer;
+}
+
+.Button:disabled {
+  color: black;
+  cursor: default;
+}
+
+.Button__Icon {
+  margin-right: 4px;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  font-size: 18px;
+  vertical-align: top;
+}
+
+.Button_uppercase {
+  text-transform: uppercase;
+}
+
+.Button_dense {
+  font-size: 0.8125rem;
+}
+
+.Button_raised {
+  color: white;
+  position: relative;
+}
+
+.Button_raised:hover,
+.Button_raised:focus {
+  z-index: 4;
+}
+
+.Button_raised:active {
+  z-index: 8;
+
+}

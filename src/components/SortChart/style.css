@@ -1,0 +1,12 @@
+.SortChart {
+  min-height: 218px;
+  height: 40vh;
+  padding: 1rem;
+
+  background-color: black;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  transition: 0.75s ease-in-out;
+}

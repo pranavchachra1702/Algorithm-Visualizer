@@ -1,0 +1,22 @@
+.VisualizerControls {
+  display: inline-flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.VisualizerControls__CenterButton {
+  height: 6rem;
+  width: 6rem;
+  background-color: black;
+}
+
+.VisualizerControls__CenterButton:disabled {
+  background-color: black;
+  color: white;
+}
+
+.VisualizerControls__Icon {
+  height: 2rem;
+  width: 2rem;
+  margin: 0;
+}

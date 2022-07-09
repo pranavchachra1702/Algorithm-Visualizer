@@ -1,0 +1,53 @@
+.SortInfo {
+  text-align: justify;
+  width: 80%;
+  max-width: 1200px;
+  padding: 1rem;
+  margin: 0 auto;
+  color: white;
+}
+
+.SortInfo__Body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.SortInfo__Article {
+  width: 50ch;
+  line-height: 1.3;
+}
+
+.SortInfo__Article li {
+  line-height: 1.5;
+}
+
+.SortInfo__Article a {
+  color: white;
+}
+
+.SortInfo__Article a:hover {
+  color: white;
+}
+
+.SortInfo__Aside td {
+  padding: 0.5rem 0;
+}
+
+.SortInfo__Aside h3 {
+  margin: 1rem 0;
+}
+
+.SortInfo__Aside code {
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+  .SortInfo__Article {
+    width: 55ch;
+    padding-right: 5ch;
+  }
+
+  .SortInfo__Aside {
+    padding-left: 5ch;
+    border-left: 2px solid white;
+  }

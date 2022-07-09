@@ -3,7 +3,7 @@
 Algorithm Visualizer is a progressive web app written in  React and is used to visualize classic Algorithms such as Bubble Sorting, Selection Sorting, Merge sorting, Heap Sorting, etc. from code.
 
 This app is deployed on Netlify for you to have fun playing around with.
-Aceesible here: https://pranavchachra-algorithm-visualizer.netlify.app
+Aceesible here: https://pranavchachra-algorithm-visualizer.netlify.app/
 
 
 ## Purpose
@@ -12,7 +12,7 @@ I wanted to improve my React abilities while also learn few classic Algorithms. 
 
 ## Installation
 
-The app is already deployed so you can play around with the final product using this [link](https://pranavchachra-algorithm-visualizer.netlify.app).
+The app is already deployed so you can play around with the final product using this [link](https://pranavchachra-algorithm-visualizer.netlify.app/).
 
 In case you wish to run this app locally, you can clone this repo and install the dependencies.
 
